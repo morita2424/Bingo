@@ -1,0 +1,57 @@
+h1{
+  text-align: center;
+  color: green;
+}
+
+p1
+{
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+}
+
+p2
+{
+  color: red;
+  font-size: 40px;
+  text-align: center;
+}
+
+.btn_start_wrapper{
+  text-align: center;
+}
+
+.btn_stop_wrapper2{
+  text-align: center;
+}
+
+.btn-start{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+}
+
+.btn-start:active{
+  transform: translateY(4px);
+  border-bottom: none;
+
+}
+
+.btn-stop{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+}
+
+.btn-stop:active{
+  transform: translateY(4px);
+  border-bottom: none;;
+}
